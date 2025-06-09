@@ -8,14 +8,16 @@ interface ModelDropdownProps {
 }
 
 const models: Model[] = [
-  // OpenAI Models
-  { id: 'gpt-4o', name: 'GPT-4o', provider: 'openai' },
-  { id: 'gpt-4-turbo', name: 'GPT-4 Turbo', provider: 'openai' },
+ 
   
   // Anthropic Models
   { id: 'claude-3-opus-20240229', name: 'Claude 3 Opus', provider: 'anthropic' },
-  { id: 'claude-3-sonnet-20240229', name: 'Claude 3 Sonnet', provider: 'anthropic' },
-  { id: 'claude-3-haiku-20240307', name: 'Claude 3 Haiku', provider: 'anthropic' },
+  { id: 'claude-3-5-sonnet-20241022', name: 'Claude 3 Sonnet', provider: 'anthropic' },
+  { id: 'claude-3-5-haiku-20241022', name: 'Claude 3 Haiku', provider: 'anthropic' },
+
+   // OpenAI Models
+  { id: 'gpt-4o', name: 'GPT-4o', provider: 'openai' },
+  { id: 'gpt-4-turbo', name: 'GPT-4 Turbo', provider: 'openai' },
   
   // Meta Models
   { id: 'llama3-70b', name: 'LLaMA 3 70B', provider: 'meta' },
